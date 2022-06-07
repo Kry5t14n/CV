@@ -9,7 +9,7 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    height: 18%;
+    height: 20%;
     justify-content: center;
 }
 
@@ -25,7 +25,7 @@
 
 .about {
     display: flex;
-    height: 18%;
+    height: 20%;
     justify-content: center;
 }
 
@@ -41,4 +41,58 @@
     text-align: center;
     white-space: pre-line;
     width: 75%;
+}
+
+.main-img {
+    height: 10vh;
+    margin-bottom: 2vh;
+    width: 10vh;
+}
+
+.main-img-top {
+    margin-top: 4vh;
+}
+
+.main-content {
+    align-items: center;
+    display: flex;
+    height: 60%;
+    justify-content: center;
+}
+
+.column {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    vertical-align: middle;
+    width: 40%;
+}
+
+.column div {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pre-line {
+    white-space: pre-line;
+}
+
+.column ul {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.column li {
+    display: flex;
+    list-style: none;
+}
+
+.column li img {
+    height: 4vh;
+    width: 4vh;
 }
