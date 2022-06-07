@@ -11,6 +11,7 @@
 
 * {
     color: var(--main-4);
+    font-family: 'Noto Sans', sans-serif;
     font-size: 3vh;
     font-weight: 200;
     margin: 0;
@@ -28,6 +29,7 @@ body {
 
 .container {
     align-items: center;
+    border-radius: 2vh;
     box-shadow: 0 0 1vh rgba(0, 0, 0, 0.3);
     display: flex;
     height: 85%;
@@ -38,6 +40,7 @@ body {
 .navbar {
     align-items: center;
     background-color: var(--main-1);
+    border-radius: 2vh 0 0 2vh;
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -58,24 +61,24 @@ body {
     height: 8vh;
     justify-content: center;
     margin: 2vh 0;
-    transition-duration: 300ms;
     width: 8vh;
 }
 
 .navbar ul div:hover {
     background-color: var(--color-light);
     box-shadow: none;
-    transform: scale(0.9);
+    transform: scale(0.8);
+    transition-duration: 300ms;
+}
+
+.navbar ul div a {
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
 .navbar img {
-    height: 5vh;
+    height: 50%;
     margin: 1vh 0;
-    width: 5vh;
-}
-
-.main {
-    background-color: var(--main-0);
-    height: 100%;
-    width: 93%;
+    width: 50%;
 }

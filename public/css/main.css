@@ -1,0 +1,44 @@
+.main {
+    background-color: var(--main-0);
+    border-radius: 0 2vh 2vh 0;
+    height: 100%;
+    width: 93%;
+}
+
+.title {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 18%;
+    justify-content: center;
+}
+
+.title h1 {
+    font-size: 5vh;
+    font-weight: 400;
+}
+
+.title p {
+    font-size: 3vh;
+    margin-top: 1vh;
+}
+
+.about {
+    display: flex;
+    height: 18%;
+    justify-content: center;
+}
+
+.about p {
+    align-items: center;
+    background-color: var(--main-1);
+    border-radius: 2vh;
+    box-shadow: 0 0 1vh rgba(0, 0, 0, 0.2);
+    display: flex;
+    font-size: 2vh;
+    justify-content: center;
+    padding: 4vh;
+    text-align: center;
+    white-space: pre-line;
+    width: 75%;
+}
