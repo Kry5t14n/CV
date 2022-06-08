@@ -15,5 +15,9 @@ app.get('/', (req, res) => {
     res.render('index')
 })
 
+app.get('/skills', (req, res) => {
+    res.render('skills')
+})
+
 
 app.listen(port)
