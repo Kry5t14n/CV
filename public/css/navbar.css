@@ -81,13 +81,14 @@ body {
     transition-duration: 300ms;
 }
 
-.navbar ul div a {
+.navbar ul a div {
     align-items: center;
     display: flex;
     justify-content: center;
 }
 
 .navbar img {
+    cursor: pointer;
     height: 50%;
     margin: 1vh 0;
     width: 50%;

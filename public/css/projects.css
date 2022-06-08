@@ -1,0 +1,51 @@
+.title {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 20%;
+    justify-content: center;
+}
+
+.title h1 {
+    font-size: 7vh;
+    font-weight: 500;
+}
+
+.row-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    justify-content: center;
+    width: 100%;
+}
+
+.row-projects {
+    align-items: center;
+    display: flex;
+    height: 50%;
+    justify-content: space-around;
+    width: 85%;
+}
+
+.element-projects {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.element-projects a {
+    display: flex;
+    justify-content: center;
+}
+
+.element-projects a img {
+    border-radius: 2vh;
+    box-shadow: 0 0 3vh rgba(0, 0, 0, 0.2);
+    height: 20vh;
+}
+
+.element-projects p {
+    text-align: center;
+    width: 80%;
+}

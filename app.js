@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-port = 3000
+port = process.env.PORT || 3000
 
 
 app.use(express.static('public'))
@@ -17,6 +17,10 @@ app.get('/', (req, res) => {
 
 app.get('/skills', (req, res) => {
     res.render('skills')
+})
+
+app.get('/projects', (req, res) => {
+    res.render('projects')
 })
 
 
