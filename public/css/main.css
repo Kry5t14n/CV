@@ -90,9 +90,11 @@
 .column li {
     display: flex;
     list-style: none;
+    margin-bottom: 1vh;
 }
 
 .column li img {
     height: 4vh;
+    margin-right: 1vh;
     width: 4vh;
 }
