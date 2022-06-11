@@ -23,5 +23,21 @@ app.get('/projects', (req, res) => {
     res.render('projects')
 })
 
+app.get('/counter', (req, res) => {
+    res.render('counter')
+})
+
+app.get('/dice-game', (req, res) => {
+    res.render('dice-game')
+})
+
+app.get('/guess-the-number', (req, res) => {
+    res.render('guess-the-number')
+})
+
+app.get('/photo-slider', (req, res) => {
+    res.render('photo-slider')
+})
+
 
 app.listen(port)

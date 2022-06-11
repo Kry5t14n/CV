@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/dice-game.css">
+</head>
+<body>
+    <main>
+        <div class="title">
+            <h1>Dice game</h1>
+        </div>
+        <div class="players-main">
+            <div class="player-box left-box">
+                <h2>Player 1</h2>
+                <img id="player1-dice" src="img/projects/dice-game/dice6.png" alt="">
+                <input id="player1-button" type="button" value="ROLL">
+            </div>
+            <div class="player-box right-box">
+                <h2>Player 2</h2>
+                <img id="player2-dice" src="img/projects/dice-game/dice6.png" alt="">
+                <input id="player2-button" type="button" value="WAIT">
+            </div>
+        </div>
+        <div class="score">
+            <div class="score-text">
+                <h2>Score</h2>
+            </div>
+            <div class="score-content">
+                <div id="player1-score" class="score-content-int">0</div>
+                <div class="score-content-int">:</div>
+                <div id="player2-score" class="score-content-int">0</div>
+            </div>
+            <div class="score-reset">
+                <input id="reset-button" type="button" value="RESET">
+            </div>
+        </div>
+    </main>
+    <script src="js/dice-game.js"></script>
+</body>
+</html>
