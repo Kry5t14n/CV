@@ -9,12 +9,23 @@
     --color-dark: #426539;
 }
 
+.light {
+    --main-0: #F8F9FA;
+    --main-1: #DEE2E6;
+    --main-2: #ADB5BD;
+    --main-3: #495057;
+    --main-4: #212529;
+
+    --color-light: #66AB53;
+    --color-dark: #426539;
+}
+
 * {
     color: var(--main-4);
     cursor: default;
     font-family: 'Noto Sans', sans-serif;
     font-size: 2.5vh;
-    font-weight: 200;
+    font-weight: 300;
     margin: 0;
     padding: 0;
     text-decoration: none;
