@@ -29,7 +29,7 @@
     align-items: center;
     background-color: var(--main-1);
     border-radius: 2vh;
-    box-shadow: 0 0 3vh rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 1vh rgba(0, 0, 0, 0.3);
     display: flex;
     flex-direction: column;
     height: 22vh;
@@ -38,8 +38,7 @@
 }
 
 .element:hover {
-    background-color: var(--color-dark);
-    transform: scale(1.15);
+    background-color: var(--color-light);
     transition-duration: 300ms;
 }
 
