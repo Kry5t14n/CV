@@ -20,7 +20,7 @@
     --color-dark: #426539;
 }
 
-* {
+*, *::after, *::before {
     color: var(--main-4);
     cursor: default;
     font-family: 'Noto Sans', sans-serif;
@@ -29,6 +29,7 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+    transition: 400ms;
 }
 
 body {
@@ -72,6 +73,10 @@ body {
     list-style: none;
 }
 
+.navbar ul li {
+    padding-bottom: .3vh;
+}
+
 .navbar ul div {
     align-items: center;
     background-color: var(--main-2);
@@ -88,7 +93,7 @@ body {
     background-color: var(--color-light);
     box-shadow: none;
     cursor: pointer;
-    transform: scale(0.8);
+    transform: scale(0.85);
     transition-duration: 300ms;
 }
 
@@ -107,4 +112,20 @@ body {
 
 .point {
     cursor: pointer;
+}
+
+.nav-element:hover::after {
+    align-items: center;
+    background-color: var(--main-1);
+    border-radius: 2vh;
+    box-shadow: 0 0 1vh rgba(0, 0, 0, 0.1);
+    content: attr(data-tooltip);
+    display: flex;
+    font-size: 2.5vh;
+    height: 10vh;
+    justify-content: center;
+    position: absolute;
+    text-align: center;
+    transform: translateX(-110%);
+    width: 15vh;
 }
