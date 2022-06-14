@@ -29,7 +29,6 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
-    transition: 400ms;
 }
 
 body {
@@ -38,6 +37,7 @@ body {
     display: flex;
     height: 100vh;
     justify-content: center;
+    transition: 400ms;
     width: 100vw;
 }
 
