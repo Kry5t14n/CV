@@ -39,5 +39,9 @@ app.get('/photo-slider', (req, res) => {
     res.render('photo-slider')
 })
 
+app.get('/checkout', (req, res) => {
+    res.render('checkout')
+})
+
 
 app.listen(port)
