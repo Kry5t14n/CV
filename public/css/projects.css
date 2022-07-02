@@ -47,6 +47,7 @@
 }
 
 .element-projects p {
+    margin-top: 1vh;
     text-align: center;
     width: 80%;
 }
